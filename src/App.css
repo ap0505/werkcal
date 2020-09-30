@@ -28,11 +28,92 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-calendar {
+  width: 100vw;
+}
+
+.custom-calendar .rc-calendar-date {
+  height: 80px;
+  /*  width: 80px;*/
+  position: relative;
+}
+
+.custom-calendar .rc-calendar-full {
+  width: 100%;
+}
+
+.rc-calendar-full .rc-select-single {
+  float: left !important;
+}
+
+.rc-calendar-date {
+  width: 100% !important;
+}
+
+.rc-calendar-date .day-cell {
+  height: 100%;
+}
+
+.rc-calendar-date .day-cell .shift-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rc-calendar-date .day-cell .date-number {
+  font-size: 13px;
+}
+
+.day-details-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+}
+
+.day-details {
+  padding: 10px 5px;
+  border-radius: 6px;
+  background: #eee;
+  box-sizing: border-box;
+  width: 320px;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.day-details .options-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+.day-details input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.day-details .shift-list {
+  height: 240px;
+  overflow: auto;
+  padding: 0;
+}
+
+.day-details .shift-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem;
+  background: #f6f6f6;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-details .shift-list li .remove {
+  color: red;
 }
