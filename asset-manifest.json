@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/werkcal/static/css/main.94377fc7.chunk.css",
+    "main.js": "/werkcal/static/js/main.46c52fbc.chunk.js",
+    "main.js.map": "/werkcal/static/js/main.46c52fbc.chunk.js.map",
+    "runtime-main.js": "/werkcal/static/js/runtime-main.64344efe.js",
+    "runtime-main.js.map": "/werkcal/static/js/runtime-main.64344efe.js.map",
+    "static/css/2.b3bd945d.chunk.css": "/werkcal/static/css/2.b3bd945d.chunk.css",
+    "static/js/2.2b1a9692.chunk.js": "/werkcal/static/js/2.2b1a9692.chunk.js",
+    "static/js/2.2b1a9692.chunk.js.map": "/werkcal/static/js/2.2b1a9692.chunk.js.map",
+    "index.html": "/werkcal/index.html",
+    "precache-manifest.068a8d5da8a261cec30cb969a4ec42f9.js": "/werkcal/precache-manifest.068a8d5da8a261cec30cb969a4ec42f9.js",
+    "service-worker.js": "/werkcal/service-worker.js",
+    "static/css/2.b3bd945d.chunk.css.map": "/werkcal/static/css/2.b3bd945d.chunk.css.map",
+    "static/css/main.94377fc7.chunk.css.map": "/werkcal/static/css/main.94377fc7.chunk.css.map",
+    "static/js/2.2b1a9692.chunk.js.LICENSE.txt": "/werkcal/static/js/2.2b1a9692.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64344efe.js",
+    "static/css/2.b3bd945d.chunk.css",
+    "static/js/2.2b1a9692.chunk.js",
+    "static/css/main.94377fc7.chunk.css",
+    "static/js/main.46c52fbc.chunk.js"
+  ]
+}
