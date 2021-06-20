@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b655efdac8d5d8406152e5c9c67f7c4f",
+    "revision": "46f17113f76b021a733e828a68316d4d",
     "url": "/werkcal/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/werkcal/static/css/2.b3bd945d.chunk.css"
   },
   {
-    "revision": "3ef679e390e1ae30e89e",
-    "url": "/werkcal/static/css/main.94377fc7.chunk.css"
+    "revision": "e42f72f306a84d6edbdf",
+    "url": "/werkcal/static/css/main.55b1f2d2.chunk.css"
   },
   {
     "revision": "333281192b526b79a8aa",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/werkcal/static/js/2.2b1a9692.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ef679e390e1ae30e89e",
-    "url": "/werkcal/static/js/main.46c52fbc.chunk.js"
+    "revision": "e42f72f306a84d6edbdf",
+    "url": "/werkcal/static/js/main.09048a6d.chunk.js"
   },
   {
     "revision": "85913574b798b469a912",
