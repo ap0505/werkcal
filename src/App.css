@@ -54,6 +54,10 @@
   height: 100%;
 }
 
+.rc-calendar-date .day-cell.shaded {
+  background: #fffaa3;
+}
+
 .rc-calendar-date .day-cell .shift-name {
   font-size: 16px;
   font-weight: bold;

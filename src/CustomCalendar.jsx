@@ -48,6 +48,18 @@ class CustomCalendar extends React.Component {
 		});
 	}
 
+	toggleShaded(e, dateKey) {
+  	e.stopPropagation();
+
+  	const bgKey = `${dateKey}-bg`;
+  	const curr = localStorage.getItem(bgKey);
+  	if (curr)
+	  	localStorage.removeItem(bgKey);
+	  else
+	  	localStorage.setItem(bgKey, true);
+
+	}
+
 	render() {
 		const { showDetails, selectedDateKey } = this.state;
 
@@ -56,8 +68,11 @@ class CustomCalendar extends React.Component {
 	      <FullCalendar
 	      	Select={Select}
 	      	dateCellContentRender={(moment) =>
-	          <DayCell date={moment.date()} dateKey={this.getDateKey(moment)}
-	          	onClick={dateKey => this.showDayDetails(dateKey)} />
+	          <DayCell
+	          	date={moment.date()}
+	          	dateKey={this.getDateKey(moment)}
+	          	onClick={dateKey => this.showDayDetails(dateKey)}
+          	/>
 	        }
 	    	/>
 	    	{ showDetails && (
@@ -65,6 +80,7 @@ class CustomCalendar extends React.Component {
 						onClickName={(e, name) => this.setShiftName(e, name, selectedDateKey)}
 						onClose={(e) => this.onClose(e)}
 						onClear={(e) => this.onClear(e)}
+						toggleShaded={e => this.toggleShaded(e, selectedDateKey)}
 					/>
 				) }
     	</div>

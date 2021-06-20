@@ -47,13 +47,14 @@ class DayDetails extends React.Component {
 
 	render() {
 		const { displayedList } = this.state;
-		const { onClickName, onClose, onClear } = this.props;
+		const { onClickName, onClose, onClear, toggleShaded } = this.props;
 
 		return (
 	    <div className="day-details-wrapper" onClick={(e) => this.handleClickOutside(e)}>
 	     	<div ref={node => this.node = node} className="day-details">
 		    	<div className="options-row">
 		    		<div onClick={(e) => onClose(e)}>&#10060;</div>
+		    		<button onClick={(e) => toggleShaded(e)}>Yoga Day</button>
 		    		<button onClick={(e) => onClear(e)}>Clear</button>
 		    	</div>
 		    	<input autoFocus type="text" onKeyUp={this.handleKeyDown.bind(this)}/>
